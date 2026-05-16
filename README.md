@@ -1,6 +1,6 @@
 # Personal Finance Dashboard
 
-Tired of not knowing where my money was going, so I built this. Upload your BMO transaction CSV and it automatically sorts everything into categories and shows you a breakdown.
+I was tired of not knowing where my money was going, so I built this. Upload your BMO transaction CSV and it automatically sorts everything into categories and shows you a breakdown.
 
 ## Demo
 [Live app]: https://finance-dashboard-ek8ndya3kuksgyrdgw9r2z.streamlit.app/
@@ -12,8 +12,7 @@ Tired of not knowing where my money was going, so I built this. Upload your BMO 
 - Shows the biggest purchase in each category
 
 ## How the categorization works
-Known merchants get matched by keyword. Anything unrecognized gets classified by a Naive Bayes model trained on the labelled transactions. Not perfect but works pretty well.
-
+Known merchants get matched by keyword. Anything unrecognized gets classified by a Naive Bayes model trained on the labelled transactions.
 ## Stack
 Python, Pandas, scikit-learn, Streamlit, Matplotlib
 
